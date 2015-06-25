@@ -1,0 +1,13 @@
+{
+  "name": "canvas-cases",
+  "version": "0.0.0",
+  "description": "A Desk.com canvas app that allows to show similar cases.",
+  "author": "DeskLabs",
+  "license": "BSD 3",
+  "homepage": "https://github.com/desklabs/canvas-cases",
+  "bugs": "https://github.com/desklabs/canvas-cases/issues",
+  "private": true,
+  "dependencies": {
+    "connect": "2.3.x"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Canvas Cases",
+  "description": "A Desk.com canvas app that shows similar cases.",
+  "keywords": ["productivity", "service", "canvas", "similar", "cases"],
+  "website": "https://github.com/desklabs/canvas-cases",
+  "repository": "https://github.com/desklabs/canvas-cases.git",
+  "logo": "http://webassets.desk.com/resources/images/icons/favicon-apple-114x114.png?v=3.5",
+  "success_url": "https://login.desk.com",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
