@@ -15,6 +15,6 @@ Now that you have the application on Heroku, go ahead and create the integration
 ![Integration URL](https://api.monosnap.com/rpc/file/download?id=y9BAMKxUCqJSNIdfjSeURTbJWgmxbO)
 
 ### Add it to your Case Layout
-The last step is to display your canvas application on your case layout. Don't forget to select some users you'd like to show the message to as well as change the height of the canvas based on the amount of cases you want it to display.
+The last step is to display your canvas application on your case layout. Don't forget to select some users you'd like to show the application to as well as change the height of the canvas based on the amount of cases you want it to display.
 
 ![Case Layout](https://api.monosnap.com/rpc/file/download?id=FDuRbDKOHbw8wnTb0ujnYHlxDB0wMD)
