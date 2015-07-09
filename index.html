@@ -126,7 +126,7 @@
                     el.innerHTML = el.innerHTML + [
                       '<article>',
                       '  <h1><a href="' + url + '" target="_blank">' + tickets[i].subject + '</a></h1>',
-                      '  <p>' + tickets[i].blurb || '' + '</p>',
+                      '  <p>' + tickets[i].blurb === 'null' ? '' : tickets[i].blurb + '</p>',
                       '</article>'
                     ].join("\n")
                   }
