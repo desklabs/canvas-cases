@@ -121,12 +121,13 @@
                     , i = 0
 
                   for (; i < total; i++) {
-                    var url = ctx.client.instanceUrl + '/web/agent/case/' + tickets[i].id
+                    var url   = ctx.client.instanceUrl + '/web/agent/case/' + tickets[i].id
+                      , blurb = tickets[i].blurb === 'null' ? '' : tickets[i].blurb
 
                     el.innerHTML = el.innerHTML + [
                       '<article>',
                       '  <h1><a href="' + url + '" target="_blank">' + tickets[i].subject + '</a></h1>',
-                      '  <p>' + tickets[i].blurb === 'null' ? '' : tickets[i].blurb + '</p>',
+                      '  <p>' + blurb + '</p>',
                       '</article>'
                     ].join("\n")
                   }
