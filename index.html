@@ -122,7 +122,7 @@
 
                   for (; i < total; i++) {
                     var url   = ctx.client.instanceUrl + '/web/agent/case/' + tickets[i].id
-                      , blurb = tickets[i].blurb === 'null' ? '' : tickets[i].blurb
+                      , blurb = tickets[i].blurb ? tickets[i].blurb : ''
 
                     el.innerHTML = el.innerHTML + [
                       '<article>',
