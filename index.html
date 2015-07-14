@@ -106,7 +106,7 @@
           if (data.status === 200) {
             var sr    = data.payload.response.split('.')[1]
               , ctx   = JSON.parse(Desk.canvas.decode(sr))
-              , q     = extract(window.location.query['q'])
+              , q     = extract(window.location.query['q']).concat(['status:resolved'])
               , qry   = encodeURIComponent(q.join(' '))
               , count = parseInt(window.location.query['count'] || '3', 10)
 
