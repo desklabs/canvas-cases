@@ -9,16 +9,16 @@ First, install this application by deploying the source code to your Heroku acco
 ## II. Create the Integration URL
 Now that you have the application on Heroku, go ahead and create the integration URL.
 
-1. In the **Name** field, add a title for this application. In this example, we’ll you use ‘Similar Cases.’
+1. In the **Name** field, add a title for this application. In this example, we'll you use 'Similar Cases'.
 
 2. The **Description** field, though optional, is a way to give a general description of the integration URL.
 
-3. Select ‘Canvas iFrame’ from the **Open Location** dropdown.
+3. Select 'Canvas iFrame' from the **Open Location** dropdown.
 
 4. In the **URL** field, specify the `q` parameter. In this instance it is `{{case.subject}}`. Use the `count` parameter to specify the number of cases to be displayed.
 **Note:** Refer to the [List of Liquid Variables](https://support.desk.com/customer/portal/articles/2916-list-of-liquid-variables) knowledge article for a complete list of Desk Liquid Objects.
 
-5. Toggle the **Enabled** button to ‘Yes’ and select the [Permission level](https://support.desk.com/customer/portal/articles/1146981?b_id=7112&t=568640).
+5. Toggle the **Enabled** button to 'Yes' and select the [Permission level](https://support.desk.com/customer/portal/articles/1146981?b_id=7112&t=568640).
 
 6. Click the **Update** button.
 
@@ -33,7 +33,7 @@ Now display the canvas application on your Case Layout.
 
 3. **Drag** and **Drop** the application in your case layout.
 
-4. Scroll over the left side of the ‘Similar Cases’ bar and click on the gear to open the **Edit** window. Adjust the pixel **Height** (e.g., 33) and **Position**, the order in which it appears in Case Details on the dashboard. Click **Save**.
+4. Scroll over the left side of the 'Similar Cases' bar and click on the gear to open the **Edit** window. Adjust the pixel **Height** (e.g., 33) and **Position**, the order in which it appears in Case Details on the dashboard. Click **Save**.
 
 ![Case Layout](https://api.monosnap.com/rpc/file/download?id=FDuRbDKOHbw8wnTb0ujnYHlxDB0wMD)
 
